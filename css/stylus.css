@@ -1,0 +1,586 @@
+/*------------------------------------------------CSS Start----------------------------------------*/
+
+body{
+	
+	margin:0;
+	
+}
+
+/*----------Header - Start----------*/
+
+header{
+	
+	display: block;
+	background-color: #0E0D13;
+	width: 100%;
+	height: 90px;
+	position:fixed;
+	
+	
+}
+
+#img_logo{
+	
+	float:left;
+	margin-top:25px;
+	margin-left:80px;
+	
+}
+
+.header .list{
+
+	float:right;
+	list-style:none;
+	color:#FFFFFF;
+	height:100%;
+	padding-right:50px;
+	
+}
+
+.header .list a{
+	
+	float:left;
+	display:table;
+	height:100%;
+	
+}
+
+.header .list a li{
+	
+	display: table-cell;
+	width:100%;
+	vertical-align:middle;
+	padding-bottom:25px;
+	padding-right:25px;
+	
+	text-align:left;
+	color:#FFFFFF;
+	font-family:'Roboto',sans-serif;
+	font-size:18px;
+	letter-spacing:0.5px;
+	
+	
+}
+
+.header .list a li #img_menu{
+	
+	padding-top:5px;
+	padding-left:40px;
+	
+}
+
+.header #buy_btn{
+    
+    background-color: #4AAB00;
+    border: none;
+    border-radius: 4px;
+    height: 42px;
+	width:120px;
+	
+	font-family:'Roboto',sans-serif;
+    font-size: 16px;
+	color:#FFFFFF;
+	letter-spacing:0.45px;
+	text-align:center;
+    
+}
+
+/*------------- Header - Ends-------------*/
+
+/*-------------- Banner - Start----------*/
+
+.banner{
+
+	background-image:url("../images/banner_imagee.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:720px;
+	
+}
+
+.banner h1{
+	
+	float:left;
+	margin-top:160px;
+	margin-left:140px;
+	color:#ECFFED;
+	font-size:60px;
+	text-align:left;
+	font-family:'Noto Serif';
+	letter-spacing:0.5px;
+	
+}
+
+.banner p{
+	
+	float:left;
+	color:#FFFFFF;
+	vertical-align:top;
+	margin-left:140px;
+	margin-right:630px;
+	font-family:'Roboto';
+	font-size:20px;
+	
+}
+
+#more_details{
+	
+	float:left;
+	margin-top:30px;
+	margin-left:140px;
+	background-color:#4AAB00;
+	border-radius: 4px;
+	color:#FFFFFF;
+	border:none;
+	font-family:'Roboto',sans-serif;
+    font-size: 18px;
+	height:50px;
+	width:164px;
+		
+}
+
+/*------------ Banner - Ends-------------*/
+
+/*--------- About_Us - Start----------*/
+
+.aboutus{
+	
+	background-color:#F5F5F5;
+	height:900px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.aboutus .aboutus_left{
+	
+	position:center;
+	float:left;
+	width:50%;
+	height:900px;
+}
+
+.aboutus h1{
+	
+	font-size:60px;
+	font-family: 'Noto Serif', serif;
+	font-style:bold;
+	float:left;
+	margin-left:200px;
+	margin-top:150px;
+	color:#4AAB00;
+	position:relative;
+	
+}
+
+.aboutus .underline-aboutus::after{
+	
+	content:'';
+	height:2px;
+	width:60%;
+	background:#4AAB00;
+	position:absolute;
+	left:0;
+	top:90px
+	
+}
+
+.aboutus p{
+	
+	float:left;
+	margin-top:5px;
+	margin-left:200px;
+	font-size:24px;
+	color:#4E4E4E;
+
+}
+
+#more_details_2{
+	
+	float:left;
+	margin-top:60px;
+	margin-left:200px;
+	background-color:#4AAB00;
+	border-radius: 4px;
+	color:#FFFFFF;
+	border:none;
+	font-family:'Roboto',sans-serif;
+    font-size: 18px;
+	height:50px;
+	width:152px;
+		
+}
+
+.aboutus #img_about_image{
+	
+	margin-top:150px;
+	margin-left:100px;
+	display:inline-table;
+	height:600px;
+	width:604px;
+	box-shadow: 20px 20px 50px #2727276B;
+}
+
+/* -----About_Us - Ends-------------*/
+
+/*------- Our_Specialities - Start */
+.our_specialities{
+	
+	background-image:url("../images/speciality_bg.jpg");
+	background-repeat:no-repeat;
+
+	height:890px;
+	margin-top:80px;
+	
+}
+
+.our_specialities h1{
+	
+	text-align:center;
+	font-size:60px;
+	font-family: 'Noto Serif', serif;
+	padding-top:100px;
+	color:#4AAB00;
+}
+
+.our_specialities p{
+	
+	text-align:center;
+	margin:30px 420px 0px 420px;
+	color:white;
+	font-size:24px;
+	font-family:'Roboto',sans-serif;
+	
+}
+
+.cards{
+	
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:45px;
+	
+}
+
+.cards td{
+	
+	width:25%;
+	background-color:#F5F5F5;
+	text-align:center;
+	font-family:'Noto Serif';
+	font-size:20px;
+	color:#585858;
+	padding:3px;
+
+}
+
+
+/*------------ Our_Specialities - Ends-------------*/
+
+/*----------- Our_Menu - Start----------*/
+
+.our_menu{
+	
+	background-image:url("../images/menu_bg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:1152px;
+	margin-top:80px;
+	
+}
+
+.our_menu h1{
+	
+	text-align:center;
+	font-size:60px;
+	font-family: 'Noto Serif', serif;
+	padding-top:40px;
+	color:#4AAB00;
+	margin-bottom:15px;
+}
+
+.our_menu p{
+	
+	text-align:center;
+	margin:0px 210px 0px 210px;
+	color:#52524B;
+	font-size:24px;
+	font-family:'Roboto',sans-serif;
+	position:relative;
+	
+}
+
+.our_menu .underline-our_menu::after{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	
+	content:'';
+	height:3px;
+	width:125px;
+	background:#4AAB00;
+
+}
+
+table{
+	
+	margin-left:180px;
+	margin-right:20px;
+	margin-top:80px;
+	
+}
+
+table th{
+	
+	font-size:32px;
+	font-family:'Noto Serif';
+	color:#4AAB00;
+	text-align:left;
+	position:relative;
+	height:100px;
+}
+
+.our_menu #underline-3::after{
+	
+	content:'';
+	height:3.5px;
+	width:85px;
+	background:#4AAB00;
+	position:absolute;
+	left:0;
+	top:80px;
+}
+
+.our_menu #underline-4::after{
+	
+	content:'';
+	height:3.5px;
+	width:85px;
+	background:#4AAB00;
+	position:absolute;
+	left:0;
+	top:80px;
+}
+
+table tr{
+	
+	line-height:30px;
+}
+
+table td {
+	
+	font-size:20px;
+	font-family:'Noto Serif';
+	color:#717070;
+	letter-spacing:0.2px;
+	text-align:left;
+	padding-right:60px;
+	margin:0px 0px 0px 0px;
+	border: none;
+	
+}
+
+table td h2{
+	
+	font-size:24px;
+	font-family:'Noto Serif';
+	color:#75C23A;
+	letter-spacing:0.24px;
+	text-align:left;
+}
+
+table td h3{
+	
+	font-size:40px;
+	font-family:'Noto Serif';
+	color:#4AAB00;
+	letter-spacing:2px;
+	margin-bottom:0px;
+	
+}
+
+#more_details_3{
+	
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	
+	background-color:#4AAB00;
+	border-radius: 4px;
+	color:#FFFFFF;
+	border:none;
+	
+	font-family:'Roboto';
+    font-size: 18px;
+	letter-spacing:0.5px;
+	height:54px;
+	width:164px;
+		
+}
+/*--------------- Our_Menu - Ends-------------*/
+
+/*------------ Book_Table - Start----------*/
+
+.book_table{
+	
+	background-image:url("../images/footer_bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:770px;
+	margin-top:80px;
+
+	
+}
+
+.book_table h1{
+	
+	text-align:center;
+	font-size:60px;
+	font-family: 'Noto Serif';
+	padding-top:120px;
+	color:#4AAB00;
+	margin-bottom:15px;
+}
+
+.book_table p{
+	
+	text-align:center;
+	margin:20px 210px 0px 210px;
+	padding-top:25px;
+	color:#F5F5F5;
+	font-size:24px;
+	font-family:'Roboto',sans-serif;
+	position:relative;
+	
+}
+.book_table table{
+	
+	margin-left:165px;
+	margin-right:165px;
+	margin-top:35px;
+	
+}
+
+.book_table table th{
+
+	font-size:22px;
+	font-family:'Noto Serif';
+	color:#96DF5F;	
+	letter-spacing:0.22px;
+	margin:0px;
+	
+}
+
+.book_table table td{
+
+	width:25%;
+	padding-left:5px;
+	
+}
+
+.book_table table input{
+	
+	width:100%;
+	height:40px;
+	border:none;
+	font-family:'Noto Serif';
+	font-size:22px;
+	font-style:bold;
+	color:#B1B1B1;
+	letter-spacing:0.22px;
+	padding-left:15px;
+	
+}
+
+#book_now{
+	
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:120px;
+	
+	background-color:#4AAB00;
+	color:#FFFFFF;
+	border:none;
+	
+	font-family:'Noto Serif';
+    font-size: 24px;
+	letter-spacing:0.24px;
+	height:56px;
+	width:245px;
+		
+}
+/*------------Book_Table - Ends-------------*/
+
+/*----------- Footer - Start----------*/
+
+footer{
+	
+	display:block;
+	height:124px;
+	background-color:#0E0D13;
+	width:100%;
+}
+
+.footer_table{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+}
+
+.footer_table #img_footer_logo{
+	
+	padding-left:120px;
+	padding-top:25px;
+}
+
+.footer_table p{
+	
+	padding-left:115px;
+	margin-bottom:0;
+	margin-top:0;
+	
+	font-family:'Noto Serif';
+	font-size:14px;
+	color:#F9F9F9;
+	letter-spacing:0.76px;
+}
+
+.footer_table h6{
+	
+	padding-left:880px;
+	padding-top:25px;
+	
+	margin-bottom:0;
+	margin-top:0;
+	
+	font-family:'Noto Serif';
+	font-size:20px;
+	color:#4AAB00;
+	
+}
+
+.footer_table .social {
+	
+	padding-top:15px;
+	padding-left:845px;
+	
+}
+
+.footer_table .social img{
+	
+	border:solid white;
+	width:32px;
+	height:32px;
+	
+}
+
+/*------------- Footer - Ends-------------*/
+
+/*----------------------------------------------------CSS ENDS-------------------------------------------------*/
