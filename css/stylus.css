@@ -1,4 +1,6 @@
+
 /*------------------------------------------------CSS Start----------------------------------------*/
+
 
 body{
 	
@@ -15,7 +17,7 @@ header{
 	width: 100%;
 	height: 90px;
 	position:fixed;
-	
+	z-index:1;
 	
 }
 
@@ -37,7 +39,7 @@ header{
 	
 }
 
-.header .list a{
+.header .list li{
 	
 	float:left;
 	display:table;
@@ -45,7 +47,7 @@ header{
 	
 }
 
-.header .list a li{
+.header .list li a{
 	
 	display: table-cell;
 	width:100%;
@@ -62,7 +64,7 @@ header{
 	
 }
 
-.header .list a li #img_menu{
+.header .list li a #img_menu{
 	
 	padding-top:5px;
 	padding-left:40px;
@@ -91,17 +93,21 @@ header{
 
 .banner{
 
+	display:block;
+	
+	height:720px;
+	
 	background-image:url("../images/banner_imagee.png");
 	background-repeat:no-repeat;
 	background-size:100%;
-	height:720px;
+	
 	
 }
 
 .banner h1{
 	
-	float:left;
-	margin-top:160px;
+	margin-top:0;
+	padding-top:180px;
 	margin-left:140px;
 	color:#ECFFED;
 	font-size:60px;
@@ -113,7 +119,7 @@ header{
 
 .banner p{
 	
-	float:left;
+	
 	color:#FFFFFF;
 	vertical-align:top;
 	margin-left:140px;
@@ -125,7 +131,7 @@ header{
 
 #more_details{
 	
-	float:left;
+	
 	margin-top:30px;
 	margin-left:140px;
 	background-color:#4AAB00;
@@ -158,9 +164,10 @@ header{
 	float:left;
 	width:50%;
 	height:900px;
+	
 }
 
-.aboutus h1{
+.aboutus h2{
 	
 	font-size:60px;
 	font-family: 'Noto Serif', serif;
@@ -181,7 +188,7 @@ header{
 	background:#4AAB00;
 	position:absolute;
 	left:0;
-	top:90px
+	top:90px;
 	
 }
 
@@ -224,6 +231,7 @@ header{
 /* -----About_Us - Ends-------------*/
 
 /*------- Our_Specialities - Start */
+
 .our_specialities{
 	
 	background-image:url("../images/speciality_bg.jpg");
@@ -234,7 +242,7 @@ header{
 	
 }
 
-.our_specialities h1{
+.our_specialities h2{
 	
 	text-align:center;
 	font-size:60px;
@@ -272,7 +280,15 @@ header{
 	padding:3px;
 
 }
-
+.our_specialities h3{
+	
+	text-align:center;
+	font-size:20px;
+	font-family: 'Noto Serif';
+	color:#585858;
+	padding-top:10px;
+	padding-bottom:20px;
+}
 
 /*------------ Our_Specialities - Ends-------------*/
 
@@ -288,7 +304,7 @@ header{
 	
 }
 
-.our_menu h1{
+.our_menu h2{
 	
 	text-align:center;
 	font-size:60px;
@@ -381,7 +397,7 @@ table td {
 	
 }
 
-table td h2{
+table td h3{
 	
 	font-size:24px;
 	font-family:'Noto Serif';
@@ -390,14 +406,14 @@ table td h2{
 	text-align:left;
 }
 
-table td h3{
+table td h4{
 	
 	font-size:40px;
 	font-family:'Noto Serif';
 	color:#4AAB00;
 	letter-spacing:2px;
 	margin-bottom:0px;
-	
+	padding:15px 0px 0px 0px;
 }
 
 #more_details_3{
@@ -406,7 +422,7 @@ table td h3{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	margin-top:80px;
 	
 	background-color:#4AAB00;
 	border-radius: 4px;
@@ -435,7 +451,7 @@ table td h3{
 	
 }
 
-.book_table h1{
+.book_table h2{
 	
 	text-align:center;
 	font-size:60px;
@@ -449,7 +465,7 @@ table td h3{
 	
 	text-align:center;
 	margin:20px 210px 0px 210px;
-	padding-top:25px;
+	padding-top:10px;
 	color:#F5F5F5;
 	font-size:24px;
 	font-family:'Roboto',sans-serif;
@@ -460,7 +476,7 @@ table td h3{
 	
 	margin-left:165px;
 	margin-right:165px;
-	margin-top:35px;
+	margin-top:25px;
 	
 }
 
@@ -470,7 +486,6 @@ table td h3{
 	font-family:'Noto Serif';
 	color:#96DF5F;	
 	letter-spacing:0.22px;
-	margin:0px;
 	
 }
 
@@ -486,12 +501,15 @@ table td h3{
 	width:100%;
 	height:40px;
 	border:none;
+	padding-left:15px;
+		
 	font-family:'Noto Serif';
 	font-size:22px;
 	font-style:bold;
 	color:#B1B1B1;
 	letter-spacing:0.22px;
-	padding-left:15px;
+
+
 	
 }
 
@@ -514,6 +532,7 @@ table td h3{
 	width:245px;
 		
 }
+
 /*------------Book_Table - Ends-------------*/
 
 /*----------- Footer - Start----------*/
@@ -536,13 +555,13 @@ footer{
 
 .footer_table #img_footer_logo{
 	
-	padding-left:120px;
+	padding-left:80px;
 	padding-top:25px;
 }
 
 .footer_table p{
 	
-	padding-left:115px;
+	padding-left:75px;
 	margin-bottom:0;
 	margin-top:0;
 	
@@ -552,9 +571,9 @@ footer{
 	letter-spacing:0.76px;
 }
 
-.footer_table h6{
+.footer_table h5{
 	
-	padding-left:880px;
+	padding-left:860px;
 	padding-top:25px;
 	
 	margin-bottom:0;
@@ -568,8 +587,9 @@ footer{
 
 .footer_table .social {
 	
-	padding-top:15px;
-	padding-left:845px;
+	padding-top:10px;
+	padding-left:800px;
+
 	
 }
 
@@ -578,6 +598,8 @@ footer{
 	border:solid white;
 	width:32px;
 	height:32px;
+	padding:5px;
+	
 	
 }
 
