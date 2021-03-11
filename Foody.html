@@ -14,36 +14,41 @@
 		
         <title>Foody_HOME</title>
 		
+		
     </head>
 	
 	<body>	
 	
 		<!--------- Header Section Start ---------->
 		
-		<header class="header">
-	
-			<a><img src="images\logo.png"  id="img_logo" /></a>
+		<header>
+		
+			<div class="header">
 				
-				<ul class="list">
-						
-					<li><a>Home</a></li>
-					<li><p>|</p></li>
-					<li><a>About</a></li>
-					<li><p>|</p></li>
-					<li><a>Menu</a></li>
-					<li><p>|</p></li>
-					<li><a>Service</a></li>
-					<li><p>|</p></li>
-					<li><a>Contact</a></li>
+				<a href="#home_sec"><img src="images\logo.png"  id="img_logo" /></a>
 					
-					<li><a><img src="images/menu_icon.png"  id="img_menu" /></a></li>
-					
-					<button type="button" id="buy_btn">Buy Now</button>
+					<ul class="list">
+							
+						<li><a href="#home_sec">Home</a></li>
+						<li><p>|</p></li>
+						<li><a href="#about_sec">About</a></li>
+						<li><p>|</p></li>
+						<li><a href="#menu_sec">Menu</a></li>
+						<li><p>|</p></li>
+						<li><a href="#speciality_sec">Service</a></li>
+						<li><p>|</p></li>
+						<li><a href="#book_sec">Contact</a></li>
 						
-				</ul>	
-				
-		</header>		
-				
+						<li><a><img src="images/menu_icon.png"  id="img_menu" /></a></li>
+						
+						<button type="button" id="buy_btn">Buy Now</button>
+							
+					</ul>	
+					
+			</div>	
+			
+		</header>
+		
 		<!--------- Header Section End ---------->
 		
 		<div class="blank">
@@ -54,9 +59,9 @@
 		
 		<!--------- Banner Section Start ---------->
 		
-		<section class="banner">
+		<section class="banner" id="home_sec">
 			
-			<div class="container_banner">
+			<div class="container">
 			
 				<div class="banner_inn">
 		
@@ -76,9 +81,9 @@
 		
 		<!--------- About_Us Section Start ---------->
 		
-		<section class="aboutus">
+		<section class="aboutus" id="about_sec">
 		
-			<div class="container_aboutus">
+			<div class="container">
 			
 				<div class="aboutus_inn">
 			
@@ -108,9 +113,9 @@
 		<!--------- Our_Specialities Section Start ---------->
 		
 		
-		<section class="our_specialities">
+		<section class="our_specialities" id="speciality_sec">
 		
-			<div class="container_our_specialities">
+			<div class="container">
 			
 				<div class="our_specialities_inn">
 		
@@ -152,15 +157,15 @@
 		
 		<!--------- Our_Menu Section Start ---------->
 		
-		<section class="our_menu">
+		<section class="our_menu" id="menu_sec">
 		
-			<div class="container_our_menu">
+			<div class="container">
 			
 				<div class="our_menu_inn">
 		
 					<h2>Our Menu</h2>
 					
-					<p class="underline-our_menu">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+					<p id="underline-our_menu">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
 					
 						<table>
 						
@@ -235,7 +240,7 @@
 						
 						</table>
 						
-						<button type="button" id="more_details_3">More Details</button>	
+					<button type="button" id="more_details_3">More Details</button>	
 					
 				</div>
 			
@@ -246,9 +251,9 @@
 		
 		<!--------- Book_Table Section Start ---------->
 		
-		<section class="book_table">
+		<section class="book_table" id="book_sec">
 		
-			<div class="container_book_table">
+			<div class="container">
 			
 				<div class="book_table_inn">
 		
@@ -265,10 +270,10 @@
 						</tr>
 						
 						<tr>
-							<td><input type="text" placeholder="Name"/></td>
-							<td><input type="text" placeholder="17/02/2017"/></td>
-							<td><input type="text" placeholder="8:00pm"/></td>
-							<td><input type="Number" placeholder="2 People" min="1"/></td>
+							<td><input type="text" label="name" placeholder="Name"/></td>
+							<td><input type="text" label="date" placeholder="17/02/2017"/></td>
+							<td><input type="text" label="time" placeholder="8:00pm"/></td>
+							<td><input type="Number" label="people" placeholder="2 People" min="1"/></td>
 						</tr>
 						
 					</table>
@@ -287,13 +292,15 @@
 		
 		<footer>
 			
+			<div class="footer">
+			
 				<table class="footer_table">
 				
 					<tr>
 					
 						<td>
 						
-							<a><img src="images/footer_logo.png"  id="img_footer_logo"/></a>
+							<a href="#home_sec"><img src="images/footer_logo.png"  id="img_footer_logo"/></a>
 							
 						</td>
 						
@@ -317,10 +324,10 @@
 						
 							<div class="social">
 				
-								<a><img src="images/fb_icon.svg"  id="img_fb"/></a>
-								<a><img src="images/twitter_icon.svg"  id="img_twt"/></a>
-								<a><img src="images/g_plus_icon.svg"  id="img_gplus"/></a>
-								<a><img src="images/you_tube_icon.svg"  id="img_ytb"/></a>
+								<a href="https://www.facebook.com/"><img src="images/fb_icon.svg"  id="img_fb"/></a>
+								<a href="https://twitter.com/"><img src="images/twitter_icon.svg"  id="img_twt"/></a>
+								<a href="https://myaccount.google.com/"><img src="images/g_plus_icon.svg"  id="img_gplus"/></a>
+								<a href="https://www.youtube.com/"><img src="images/you_tube_icon.svg"  id="img_ytb"/></a>
 								
 							</div>
 							
@@ -329,7 +336,9 @@
 					</tr>
 					
 				</table>
-		 
+			
+			</div>
+				
 		</footer>
 		
 		<!--------- Footer Section End ---------->
