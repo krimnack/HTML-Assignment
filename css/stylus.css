@@ -40,7 +40,7 @@ button{
 
 .header{
 	
-	width:100%;
+	width:1366px;
 	height:72px;
 	position:fixed;
 	z-index:1;
@@ -51,17 +51,17 @@ button{
 
 .header #header_logo{
 	
-	float:left;
-	padding:2.5px 0px 0px 30px;
+	margin:2.5px 0px 0px 0px;
 	height:66px;
 	
 }
 
 .header .list{
 	
-	margin:15px 0px 0px 180px;
 	display:inline-block;
-
+	margin:15px 0px 0px 160px;
+	vertical-align:top;
+	
 }
 
 .header .list li{
@@ -95,8 +95,7 @@ button{
 	
 	float:right;
 	display:inline-block;
-	vertical-align:top;
-	margin:20px 40px 0px 0px;
+	margin:18px 5px 0px 0px;
 	
 	font-family:'Montserrat';
 	font-size:25px;
