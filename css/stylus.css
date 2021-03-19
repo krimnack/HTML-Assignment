@@ -3,905 +3,842 @@
 /*--------------------- Common Properties START ---------------------*/
 
 html {
-	
-	scroll-behavior: smooth;
-	
+
+  scroll-behavior: smooth;
+
 }
 
-body{
-	
-	margin:0;
-	
+body {
+
+  margin: 0;
+
+  font-family: 'Roboto';
+  color: #151D41;
+
 }
 
 body::-webkit-scrollbar {
-	
-    display: none;
+
+  display: none;
 
 }
 
-.container{
-	
-	display:block;
-	width:1366px;
-	margin:0 auto;
-	
+.container {
+
+  display: block;
+  width: 1366px;
+  margin: 0 auto;
+
 }
 
-button{
+.titlewhite {
 
-	cursor:pointer;
-	
+  display: inline-block;
+  background-color: rgba(15, 191, 57, 0.1);
+  border-radius: 5px;
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+  color: #0FBF61;
+  font-size: 20px;
+
+}
+
+button {
+
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.button_green {
+
+  background-color: #0FBF61;
+  border-radius: 5px;
+  border: none;
+
+  color: #FFFFFF;
+  font-size: 25px;
+
+}
+
+h2 {
+
+  font-family: 'Playfair Display';
+  color: #151D41;
+
+}
+
+h3 {
+
+  font-family: 'Montserrat';
+  color: #151D41;
+
 }
 
 /*--------------------- Common Properties Ends ---------------------*/
 
 /*--------------------- Header START ---------------------*/
 
-.header{
-	
-	width:1366px;
-	height:72px;
-	position:fixed;
-	z-index:1;
-	
-	background-color:#FFFFFF;
-	
+.headersec {
+
+  width: 1366px;
+  height: auto;
+  position: fixed;
+  z-index: 2;
+  padding-top: 3px;
+
+  background-color: #FFFFFF;
+  text-align: center;
+
 }
 
-.header #header_logo{
-	
-	margin:2.5px 0px 0px 0px;
-	height:66px;
-	
+.headersec #header_logo {
+
+  float: left;
+
 }
 
-.header .list{
-	
-	display:inline-block;
-	margin:15px 0px 0px 160px;
-	vertical-align:top;
-	
+.headersec .header_list {
+
+  display: inline-block;
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  vertical-align: top;
+
 }
 
-.header .list li{
-	
-	display:table-cell;
-	padding:10px 30px 0px 30px;
-	
+.headersec .header_list li {
+
+  display: table-cell;
+  padding: 0px 25px 0px 25px;
+
 }
 
-.header .list li a{
-	
-	font-family:'Montserrat';
-	font-size:18px;
-	color:#151D41;
-	text-decoration:none;
-	
+.headersec .header_list li a {
+
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: #151D41;
+  text-decoration: none;
+
 }
 
-.header .list li a:hover{
-	
-	cursor:pointer;
-	
-	text-decoration:underline;
-	text-underline-offset:5px;
-	text-decoration-color: #4AAB00;
-	text-decoration-thickness:2.5px;
-	
+.headersec .header_list li a:hover {
+
+  cursor: pointer;
+
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: #4AAB00;
+  text-decoration-thickness: 2.5px;
+
 }
 
-.header h1{
-	
-	float:right;
-	display:inline-block;
-	margin:18px 5px 0px 0px;
-	
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#0FBF61;
-	
+.headersec h1 {
+
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  padding-top: 3px;
+
+  font-family: 'Montserrat';
+  font-size: 25px;
+  color: #0FBF61;
+
 }
 
-.header h1:hover{
-	
-	transition: transform 0.5s ease;
-	transform: scale(1.15);
-	cursor:pointer;
-	
+.headersec h1:hover {
+
+  transition: transform 0.5s ease;
+  transform: scale(1.15);
+  cursor: pointer;
+
 }
 
 /*--------------------- Header END ---------------------*/
 
 /*-------------- Blank Section - Start-------------*/
 
-.blank{
-	
-	width:100%;
-	height:72px;
-	
+.blank {
+
+  width: 100%;
+  height: 79px;
+  position: fixed;
+  z-index: 1;
+
 }
 
 /*------------- Blank Section - Ends-------------*/
 
 /*--------------------- Home START ---------------------*/
 
-.home{
-	
-	width:100%;
-	height:auto;
-	padding:120px 0px 120px 0px;
-	
+.home {
+
+  width: 100%;
+  height: auto;
+  padding: 120px 0px 100px 0px;
+
 }
 
-.home .home_left{
-	
-	float:left;
-	width:50%;
-	padding-left:40px;
-	
+.home .home_left {
+
+  float: left;
+  width: 45%;
+  padding-left: 40px;
+
 }
 
-.home .home_right{
-	
-	display:inline-block;
-	width:auto;
-	
+.home .home_right {
+
+  display: inline-block;
+  width: auto;
+
 }
 
-.home .home_left #btn_welcome{
-	
-	width:187px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	color:#0FBF61;
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	
+.home .home_left .title {
+
+  margin-top: 95px;
+  padding: 15px 25px 15px 25px;
+
 }
 
-.home .home_left h2{
-	
-	margin:15px 0px 0px 0px;
-	
-	font-family:'Playfair Display';
-	font-size:60px;
-	color:#151D41;
-		
+.home .home_left h2 {
+
+  margin: 30px 0px 0px 0px;
+
+  font-size: 60px;
+
 }
 
-.home .home_left h3{
-	
-	margin:15px 0px 0px 0px;
-	
-	font-family:'Montserrat';
-	font-size:20px;
-	color:#151D41;
-	
+.home .home_left h3 {
+
+  margin: 15px 0px 0px 0px;
+
+  font-size: 20px;
+  font-weight: normal;
+
 }
 
-.home .home_left p{
-	
-	margin:60px 80px 65px 0px;
-	
-	font-family:'Roboto';
-	font-size:16px;
-	color:#151D41;
-	line-height:30px;
-	
+.home .home_left p {
+
+  margin: 50px 0px 50px 0px;
+
+  font-size: 16px;
+  line-height: 35px;
+
 }
 
-.home .home_left #btn_hireme{
-	
-	width:230px;
-	height:79px;
-	
-	background-color:#0FBF61;
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#FFFFFF;
-	
-	cursor:pointer;
-	
-}
-.home .home_left #btn_explore{
-	
-	width:230px;
-	height:79px;
-	margin-left:25px;
-	
-	background-color:#FFFFFF;
-	border-color:#151D41;
-	border-width:2px;
-	border-radius: 5px;
-		
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#151D41;
-	
+.home .home_left #btn_hireme {
+
+  padding: 25px 60px 25px 60px;
+
 }
 
-.home .home_right #image-1{
-	
-	width:512px;
-	height:548px;
-	padding-left:120px;
-	
+.home .home_left #btn_explore {
+
+  margin-left: 40px;
+  padding: 23.5px 60px 23.5px 60px;
+
+  background-color: #FFFFFF;
+  border-color: #151D41;
+  border-width: 2px;
+  border-radius: 5px;
+
+  font-size: 25px;
+
+}
+
+.home .home_right #image-1 {
+
+  width: 612px;
+  height: 668px;
+  padding-left: 95px;
+
 }
 
 /*--------------------- Home END ---------------------*/
 
 /*--------------------- About Me START ---------------------*/
 
-.aboutme{
-	
-	width:100%;
-	height:auto;
-	padding:120px 0px 120px 0px;
-	
+.aboutme {
+
+  width: 100%;
+  height: auto;
+  padding: 120px 0px 120px 0px;
+
 }
 
-.aboutme .aboutme_left{
-	
-	float:left;
-	width:auto;
-	padding-left:40px;
-	
+.aboutme .aboutme_left {
+
+  float: left;
+  width: auto;
+  padding-left: 40px;
+
 }
 
-.aboutme .aboutme_right{
-	
-	display:inline-block;
-	width:50%;
-	padding-left:80px;
-	
+.aboutme .aboutme_right {
+
+  display: inline-block;
+  width: 45%;
+  padding-left: 80px;
+
 }
 
-.aboutme .aboutme_left #image-2{
-	
-	width:552px;
-	height:590px;
-	
+.aboutme .aboutme_left #image-2 {
+
+  width: 582px;
+  height: 660px;
+
 }
 
-.aboutme .aboutme_right #btn_aboutme{
-	
-	margin-top:0px;
-	padding:15px 30px 15px 30px;
-	width:187px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	color:#0FBF61;
-	
+.aboutme .aboutme_right .title {
+
+  margin-top: 25px;
+  padding: 15px 35px 15px 35px;
+
 }
 
-.aboutme .aboutme_right h2{
-	
-	margin-top:30px;
-	padding:0px 230px 0px 0px;
-	
-	font-family:'Playfair';
-	font-size:40px;
-	color:#151D41;
-	
-}
-.aboutme .aboutme_right p{
-	
-	padding-right:90px;
-	
-	font-family:'Roboto';
-	font-size:18px;
-	color:#151D41;
-	line-height:30px;
-	
+.aboutme .aboutme_right h2 {
+
+  margin-top: 25px;
+  padding: 0px 160px 0px 0px;
+
+  font-size: 40px;
+
 }
 
-.aboutme .aboutme_right #btn_downcv{
-	
-	width:280px;
-	height:96px;
-	margin-top:25px;
-	
-	
-	background-color:#0FBF61;
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#FFFFFF;
-	
+.aboutme .aboutme_right p {
+
+  padding-right: 25px;
+
+  font-size: 18px;
+  line-height: 35px;
+
+}
+
+.aboutme .aboutme_right #btn_downcv {
+
+  margin-top: 25px;
+  padding: 30px 60px 30px 60px;
+
 }
 
 /*--------------------- About Me END ---------------------*/
 
 /*--------------------- Work START ---------------------*/
 
-.work{
-	
-	width:100%;
-	height:auto;
-	padding:80px 0px 80px 0px;
-	
+.work {
+
+  width: 100%;
+  height: auto;
+  padding: 80px 0px 80px 20px;
+
 }
 
-.work table{
-	
-	width:100%;
-	height:auto;
-	padding:0px 40px 0px 40px;
-	
-	text-align:center;
-	
+.work .circle_work {
+
+  display: inline-block;
+  width: 336px;
+  height: 336px;
+  margin: 0px 40px 0px 40px;
+
+  border: 8px solid #838383;
+  border-radius: 50%;
+
+  text-align: center;
+
 }
 
-.work table tr td svg{
-	
-	height:360px;
-	width:360px;
-	
-	stroke-width:8px;
-	fill:white;
-	
+.work .circle_work:hover {
+
+  border-color: #00C878;
+
 }
 
-.work table tr td svg circle:hover{
-	
-	stroke:#00C878;
-	
+.work .circle_work h2 {
+
+  margin: 90px 0px 20px 0px;
+
+  font-size: 69px;
+
 }
 
-.work table tr td svg text{
-	
-	text-anchor:middle;
-	fill:#151D41;
-	
-	font-family:'Playfair Display';
-	font-size:69px;
-	
-}
+.work .circle_work h3 {
 
-.work table tr td svg #work_desc{
-	
-	font-family:'Montserrat';
-	font-size:20px;
-	fill:#151D41;
-	
+  font-size: 20px;
+  font-weight: normal;
+
 }
 
 /*--------------------- Work END ---------------------*/
 
 /*--------------------- My Services START ---------------------*/
 
-.myservices{
-	
-	width:100%;
-	height:auto;
-	padding:80px 0px 80px 0px;
-	
-	text-align:center;
-	
+.myservices {
+
+  width: 100%;
+  height: auto;
+  padding: 80px 0px 80px 0px;
+
+  text-align: center;
+
 }
 
-.myservices #btn_myservices{
-	
-	width:187px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	color:#0FBF61;
-	
-}
+.myservices .title {
 
-.myservices h2{
-	
-	font-family:'Playfair Display';
-	font-size:40px;
-	color:#151D41;
-	
+  padding: 18px 30px 18px 30px;
+
 }
 
 .myservices .scrolling_cards {
-	
-	margin-top:60px;
-	
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space:nowrap;
-  
+
+  margin-top: 60px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
 }
+
 .myservices .scrolling_cards::-webkit-scrollbar {
-	
-    display: none;
-	
+
+  display: none;
+
 }
 
-.myservices .scrolling_cards .card{
-	
-    display: inline-block;
-	width:442;
-	height:517px;
-	padding:0px 40px 0px 40px;
-	margin:25px 45px 25px 40px;
-	text-align:left;
-	
-	border-radius:5px;
-	box-shadow: 0px 35px 35px #7682B72E;
-	
+.myservices .scrolling_cards .card {
+
+  display: inline-block;
+  width: 412px;
+  height: 517px;
+  margin: 20px 20px 30px 35px;
+  padding: 0px 0px 0px 40px;
+
+  border-radius: 5px;
+  box-shadow: 0px 35px 35px #7682B72E;
+
+  text-align: left;
+
 }
 
-.myservices .scrolling_cards .card:hover{
-	
-	transition: transform .5s ease;
-	transform: scale(1.05);
-	cursor:pointer;
-	
+.myservices .scrolling_cards .card:hover {
+
+  transition: transform .5s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+
 }
 
-.myservices .scrolling_cards .card svg{
-	
-	margin-top:45px;
-	fill:white;
-	stroke-width:2px;
-	
+.myservices .scrolling_cards .card .circle_card {
+
+  display: inline-block;
+  width: 109px;
+  height: 109px;
+  margin: 35px 0px 25px 0px;
+
+  border: solid #0FBF61;
+  border-radius: 50%;
+
+  text-align: center;
+
 }
 
-.myservices .scrolling_cards .card img{
-	
-	margin-top:30px;
-	
+.myservices .scrolling_cards .card img {
+
+  margin-top: 28px;
+
 }
 
-.myservices .scrolling_cards .card h3{
-	
-	margin:0px 0px 30px 0px;
-	
-	font-family:'Playfair Display', Bold;
-	font-size:33px;
-	color:#151D41;
-	
+.myservices .scrolling_cards .card h2 {
+
+  margin: 0px 0px 30px 0px;
+
+  font-size: 33px;
+
 }
 
-.myservices .scrolling_cards .card .dotted_line svg{
-	
-	margin:0;
-	stroke:#0FBF61; 
-	stroke-width:5px;
-	
+.myservices .scrolling_cards .card .dot_line span {
+
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background-color: #0FBF61;
+  margin: 0px 8px 0px 5px;
+
 }
 
-.myservices .scrolling_cards .card p{
-	
-	margin-top:20px;
-	
-	font-family:'Montserrat';
-	font-size:16px;
-	color:#151D41;
-	line-height:35px;
-	
+.myservices .scrolling_cards .card p {
+
+  margin-top: 20px;
+  padding-right: 70px;
+  white-space: normal;
+  word-break: break-word;
+
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #151D41;
+  line-height: 35px;
+
 }
 
-.myservices .scrolling_cards .card button{
-	
-	margin-top:25px;
-	
-	width:151px;
-	height:39px;
-	padding-left:15px;
-	background-color:#0FBF61;
-	border:none;
-	
-	text-align:left;
-	font-family:'Playfair Display';
-	font-size:16px;
-	color:#FFFFFF;
-	
+.myservices .scrolling_cards .card button {
+
+  margin-top: 25px;
+  padding: 12px 20px 12px 20px;
+
+  background-color: #0FBF61;
+  border: none;
+
+  font-family: 'Playfair Display';
+  font-size: 16px;
+  color: #FFFFFF;
+
 }
 
-.myservices .scrolling_cards .card button #whitearrow,#blackarrow{
-	
-	margin:0;
-	padding-left:10px;
-	
+.myservices .scrolling_cards .card button #whitearrow,
+#blackarrow {
+
+  margin: 0;
+  padding-left: 18px;
+
 }
 
 /*--------------------- My Services END ---------------------*/
 
 /*--------------------- Skills START ---------------------*/
 
-.skills{
-	
-	width:100%;
-	height:auto;
-	padding:80px 0px 80px 0px;
-	
-}
+.skills {
 
-.skills .skills_left{
-	
-	display:inline-block;
-	width:50%;
-	padding-left:40px;
-	
-}
-
-.skills .skills_right{
-	
-	display:inline-block;
-	float:right;
-	
-}
-
-.skills .skills_left  #btn_skills{
-	
-	width:104px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	color:#0FBF61;
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	
-}
-
-.skills .skills_left h2{
-	
-	margin:0;
-	padding-top:35px;
-	
-	font-family:'Playfair Display';
-	font-size:36px;
-	color:#151D41;
-}
-
-.skills .skills_right #btn_skills_hireme{
-	
-	width:209px;
-	height:72px;
-	margin-top:65px;
-	
-	background-color:#0FBF61;
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat';
-	font-size:22px;
-	color:#FFFFFF;
-	
-}
-
-.skills .skills_center{
-	
-	width:100%;
-	height:auto;
-	
-}
-.skills .skills_center .skills_cards{
-	
-	display:inline-block;
-	width:30%;
-	height:auto;
-	margin-top:35px;
-	padding-left:40px;
+  width: 100%;
+  height: auto;
+  padding: 80px 0px 80px 0px;
 
 }
 
-.skills .skills_center .skills_cards h2{
-	
-	margin:20px 0px 30px 0px;
-	
-	font-family:'Playfair Display';
-	font-size:45px;
-	color:#151D41;
-	
+.skills .skills_left {
+
+  display: inline-block;
+  width: 50%;
+  padding-left: 40px;
+
 }
 
-.skills .skills_center .skills_cards h3{
-	
-	margin:15px 0px 10px 0px;
-	
-	font-family:'Playfair Display';
-	font-size:27px;
-	color:#151D41;
-	
+.skills .skills_right {
+
+  display: inline-block;
+  float: right;
+
 }
 
-.skills .skills_center .skills_cards p{
+.skills .skills_left .title {
 
-	margin:0px 0px 20px 0px;
-	
-	font-family:'Montserrat';
-	font-size:18px;
-	color:#686868;
-	
+  padding: 15px 21px 15px 21px;
+
+}
+
+.skills .skills_left h2 {
+
+  margin: 0;
+  padding-top: 25px;
+
+  font-size: 36px;
+
+}
+
+.skills .skills_right #btn_skills_hireme {
+
+  margin-top: 45px;
+  padding: 27px 60px 27px 60px;
+
+  font-size: 22px;
+
+}
+
+.skills .skills_center {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.skills .skills_center .skills_cards {
+
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-top: 35px;
+  padding-left: 40px;
+
+}
+
+.skills .skills_center .skills_cards h2 {
+
+  margin: 20px 0px 30px 0px;
+
+  font-size: 45px;
+
+}
+
+.skills .skills_center .skills_cards .percent_line span {
+
+  display: table-cell;
+  width: 125px;
+  height: 3px;
+  background-color: #0FBF61;
+
+}
+
+.skills .skills_center .skills_cards .percent_line .pline_span2 {
+
+  background-color: rgba(15, 191, 57, 0.1);
+
+}
+
+.skills .skills_center .skills_cards h3 {
+
+  margin: 15px 0px 10px 0px;
+
+  font-family: 'Playfair Display';
+  font-size: 27px;
+
+}
+
+.skills .skills_center .skills_cards p {
+
+  margin: 0px 0px 20px 0px;
+
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: #686868;
+
 }
 
 /*--------------------- Skills END ---------------------*/
 
 /*--------------------- Portfolio START ---------------------*/
 
-.portfolio{
-	
-	width:100%;
-	height:auto;
-	padding:200px 0px 80px 0px;
-	
-	text-align:center;
-	
+.portfolio {
+
+  width: 100%;
+  height: auto;
+  padding: 200px 0px 80px 0px;
+
+  text-align: center;
+
 }
 
-.portfolio #btn_portfolio{
-	
-	width:203px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	color:#0FBF61;
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	
+.portfolio .title {
+
+  padding: 16px 40px 16px 40px;
+
 }
 
-.portfolio h2{
-	
-	margin-bottom:45px;
-	
-	font-family:'Playfair Display';
-	font-size:40px;
-	color:#151D41;
-	
+.portfolio h2 {
+
+  margin-bottom: 45px;
+
+  font-size: 40px;
+
 }
 
-.portfolio  .list_portfolio{
-	
-	list-style:none;
-	width:35%;
-	margin:auto;
-	
+.portfolio .list_portfolio {
+
+  list-style: none;
+  width: 35%;
+  margin: auto;
+
 }
 
-.portfolio  .list_portfolio li{
-	
-	display:table-cell;
-	text-align:center;
-	
+.portfolio .list_portfolio li {
+
+  display: table-cell;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #FFFFFF;
+  text-align: center;
+
 }
 
-.portfolio  .list_portfolio li a{
-	
-	margin:0px 15px 0px 15px;
-	
-	font-family:'Playfair Display';
-	font-size:18px;
-	color:#151D41;
-	text-decoration:none;
-	
+.portfolio .list_portfolio li:hover {
+
+  cursor: pointer;
+  border-bottom: 3px solid #0FBF61;
+
 }
 
-.portfolio  .list_portfolio li a:hover{
-	
-	cursor:pointer;
-	
-	text-decoration:underline;
-	text-underline-offset:10px;
-	text-decoration-color: #0FBF61;
-	text-decoration-thickness:3px;
-	
+.portfolio .list_portfolio li a {
+
+  margin: 0px 15px 0px 15px;
+
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #151D41;
+  text-decoration: none;
+
 }
 
-.portfolio .portfolio_cards{
-	
-	width:100%;
-	height:auto;
-	padding:75px 0px 30px 0px;
-	
-	
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space:nowrap;
-	
+.portfolio .portfolio_cards {
+
+  width: 100%;
+  height: auto;
+  padding: 65px 0px 30px 0px;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
 }
 
 .portfolio .portfolio_cards::-webkit-scrollbar {
-	
-    display: none;
+
+  display: none;
 
 }
 
-.portfolio .portfolio_cards img{
-	
-	width:345px;
-	height:375px;
-	object-fit:contain;
-	padding:0px 25px 0px 10px;
-	
-	border-radius:5px;
-	
+.portfolio .portfolio_cards img {
+
+  width: 345px;
+  height: 375px;
+  object-fit: contain;
+  padding: 0px 35px 0px 0px;
+
+  border-radius: 5px;
+
 }
 
-.portfolio .portfolio_cards img:hover{
-	
-	transition: transform .5s ease;
-	transform: scale(1.05);
-	cursor:pointer;
-	
+.portfolio .portfolio_cards img:hover {
+
+  transition: transform .5s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+
 }
 
-.portfolio #btn_viewall{
-	
-	width:230px;
-	height:79px;
-	margin-top:75px;
-	
-	background-color:#0FBF61;
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#FFFFFF;
-	
+.portfolio #btn_viewall {
+
+  margin-top: 75px;
+  padding: 25px 60px 25px 60px;
+
 }
 
 /*--------------------- Portfolio END ---------------------*/
 
 /*--------------------- Contact START ---------------------*/
 
-.contact{
-	
-	width:100%;
-	height:auto;
-	padding:160px 0px 180px 0px;
-	text-align:center;
-	
-}
+.contact {
 
-.contact #btn_contactme{
-	
-	width:236px;
-	height:54px;
-	
-	background-color: rgba(15, 191, 57, 0.1);
-	border-radius: 5px;
-	border:none;
-	
-	color:#0FBF61;
-	font-family:'Montserrat',sans-serif;
-    font-size: 20px;
-	
-}
-
-.contact h2{
-	
-	margin-top:50px;
-	
-	font-family:'Playfair Display';
-	font-size:40px;
-	color:#151D41;
-	
-}
-
-.contact .contact_table{
-	
-	width:90%;
-	margin:75px auto 0px auto;
-	
-}
-
-.contact .contact_table tr td{
-	
-	border-spacing:25px;
-	text-align:center;
-	
-}
-
-.contact .contact_table tr td input{
-	
-	height:49px;
-	width:90%;
-	margin:15px 0px 15px 0px;
-	padding-left:20px;
-	
-	border-radius:5px;
-	border-width:1px;
-	border-color:#151D41;
-	
-}
-
-.contact .contact_table tr td input::placeholder{
-	
-	font-family:'Roboto';
-	font-size:18px;
-	color:#151D41;
-	
-}
-
-.contact .contact_table tr td textarea{
-	
-	height:149px;
-	width:95.5%;
-	margin:15px 0px 15px 0px;
-	padding:20px 0px 0px 20px;
-	resize:none;
-	
-	border-radius:5px;
-	border-width:1px;
-	border-color:#151D41;
+  width: 100%;
+  height: auto;
+  padding: 160px 0px 180px 0px;
+  text-align: center;
 
 }
 
-.contact .contact_table tr td textarea::placeholder{
-	
-	font-family:'Roboto';
-	font-size:18px;
-	color:#151D41;
-	
+.contact .title {
+
+  padding: 16px 45px 16px 45px;
+
 }
 
-.contact #btn_sendmsg{
-	
-	width:296px;
-	height:79px;
-	margin-top:75px;
-	
-	background-color:#0FBF61;
-	border-radius: 5px;
-	border:none;
-	
-	font-family:'Montserrat';
-	font-size:25px;
-	color:#FFFFFF;
-	
-	
+.contact h2 {
+
+  margin-top: 45px;
+
+  font-size: 40px;
+
+}
+
+.contact .contact_table {
+
+  width: 90%;
+  margin: 65px auto 0px auto;
+
+}
+
+.contact .contact_table tr td {
+
+  border-spacing: 25px;
+  text-align: center;
+
+}
+
+.contact .contact_table tr td input {
+
+  height: 49px;
+  width: 90%;
+  margin: 15px 0px 15px 0px;
+  padding-left: 20px;
+
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #151D41;
+
+}
+
+.contact .contact_table tr td input::placeholder {
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #151D41;
+
+}
+
+.contact .contact_table tr td textarea {
+
+  height: 149px;
+  width: 95.5%;
+  margin: 15px 0px 15px 0px;
+  padding: 20px 0px 0px 20px;
+  resize: none;
+
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #151D41;
+
+}
+
+.contact .contact_table tr td textarea::placeholder {
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #151D41;
+
+}
+
+.contact #btn_sendmsg {
+
+  margin-top: 75px;
+  padding: 25px 60px 25px 60px;
+
 }
 
 /*--------------------- Contact END ---------------------*/
 
 /*--------------------- Footer START ---------------------*/
 
-.footer{
+.footer {
 
-	width:100%;
-	height:85px;
-	text-align:center;
-	
+  width: 100%;
+  height: 85px;
+  text-align: center;
+
+  border-top: 1px solid #151D41;
+
 }
 
-.footer p{
-	
-	margin:0;
-	padding-top:35px;
-	
-	font-family:'Montserrat';
-	font-size:18px;
-	color:#151D41;
-	
+.footer p {
+
+  margin: 0;
+  padding-top: 35px;
+
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: #151D41;
+
 }
 
 /*--------------------- Footer END ---------------------*/
 
 /*--------------------- CSS ENDS ---------------------*/
+
