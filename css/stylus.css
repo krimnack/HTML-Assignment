@@ -86,7 +86,7 @@ h3 {
   height: auto;
   position: fixed;
   z-index: 2;
-  padding-top: 3px;
+  padding: 5px 0px 5px 0px;
 
   background-color: #FFFFFF;
   text-align: center;
@@ -112,7 +112,7 @@ h3 {
 .headersec .header_list li {
 
   display: table-cell;
-  padding: 0px 25px 0px 25px;
+  padding-right: 45px;
 
 }
 
@@ -141,7 +141,7 @@ h3 {
   display: inline-block;
   float: right;
   margin-right: 10px;
-  padding-top: 3px;
+  padding: 3px;
 
   font-family: 'Montserrat';
   font-size: 25px;
